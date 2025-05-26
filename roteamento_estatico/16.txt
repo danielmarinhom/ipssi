@@ -1,0 +1,39 @@
+pc 0
+
+ipconfig
+IPv4 Address....................: 200.1.0.100
+
+ping
+Reply from 200.1.1.104: bytes=32 time<1ms TTL=126
+Reply from 200.1.1.104: bytes=32 time<1ms TTL=126
+Reply from 200.1.1.104: bytes=32 time<1ms TTL=126
+
+ttl
+todos 126
+
+tracert
+  1   0 ms      0 ms      0 ms      200.1.0.1
+  2   0 ms      1 ms      0 ms      1.0.0.2
+  3   1 ms      0 ms      0 ms      200.1.1.104
+O host para chegar no destino de outra rede passa pela interface do roteador e em seguida no host destino
+
+---------------------
+
+pc 5
+
+ipconfig
+IPv4 Address....................: 200.1.1.100
+
+ping
+Reply from 200.1.0.100: bytes=32 time<1ms TTL=126
+Reply from 200.1.0.100: bytes=32 time<1ms TTL=126
+Reply from 200.1.0.100: bytes=32 time=1ms TTL=126
+
+ttl
+todos 126
+
+tracert
+  1   0 ms      0 ms      0 ms      200.1.1.1
+  2   0 ms      0 ms      0 ms      1.0.0.1
+  3   1 ms      0 ms      0 ms      200.1.0.100
+O host para chegar no destino de outra rede passa pela interface do roteador e em seguida no host destino

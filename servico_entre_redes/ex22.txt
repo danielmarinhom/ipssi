@@ -1,0 +1,28 @@
+22)
+a)O roteamento dinâmico detecta a falha e recalcula a rota. Na RIP, ele pode levar até 30 segundos para atualizar as tabelas do roteamento
+
+b)TTL é o Time To Live e indica o número de roteadores que o pacote pode atravessar, a cada roteador o valor diminui em 1
+
+c)O tracert ou traceroute no Linux mostra o caminho que o pacote faz entre os roteadores no caminho para chegar no destino
+
+d)O serviço HTTP permite a transferencia de paginas web interpretados pelo navegador.
+
+e)O DNS da um apelido pro endereço ip como "google.com" que traduz o ip do servidor da empresa.
+
+f)6 lans foram configuradas e 6 redes entre os roteadores
+
+g)LANs:
+0: 200.168.0.0
+1: 200.168.1.0
+2: 200.168.2.0
+3: 200.168.3.0
+4: 200.168.4.0
+5: 200.168.5.0
+Entre roteadores:
+r0 pro r1: 1.0.0.0
+r1 pro r2: 2.0.0.0
+r2 pro r3: 3.0.0.0
+r3 pro r4: 4.0.0.0
+r4 pro r5: 5.0.0.0
+r5 pro r0: 6.0.0.0
+

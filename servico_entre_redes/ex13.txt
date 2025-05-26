@@ -1,0 +1,15 @@
+PC0
+200.168.0.101 ttl: 124 routers: 4
+11.0.0.110  ttl: 124 routers: 4
+
+PC3
+110.0.0.110 ttl:124 routers:4
+140.0.0.140 ttl:124 routers:4
+
+PC6
+110.0.0.110 ttl:124 routers:4
+140.0.0.140 ttl:125 routers: 3
+
+PC9
+110.0.0.110 ttl:124 routers:4
+140.0.0.140 ttl:125 routers:3

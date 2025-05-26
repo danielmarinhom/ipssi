@@ -1,0 +1,1 @@
+11) as maquinas continuaram com os mesmos ip's mesmo após dar release nas maquinas do 1 ao 4 e renew nas 10 a 13

@@ -1,0 +1,10 @@
+6)realizando um ping de broadcast, em todos os pc's, o roteador responde:
+Reply from 200.1.2.10: bytes=32 time<1ms TTL=128
+Reply from 200.1.2.10: bytes=32 time<1ms TTL=128
+Reply from 200.1.2.10: bytes=32 time<1ms TTL=128
+entre os pc's, o ping retorna o mesmo padrão, diferenciando apenas o ip do destino:
+Reply from 200.1.2.100: bytes=32 time<1ms TTL=128
+Reply from 200.1.2.100: bytes=32 time<1ms TTL=128
+Reply from 200.1.2.100: bytes=32 time=1ms TTL=128
+
+

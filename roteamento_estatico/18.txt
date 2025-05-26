@@ -1,0 +1,21 @@
+roteador 0
+
+FastEthernet0/0
+o ipv4 mostra 200.1.0.1 como configurado no exercicio 12
+
+FastEthernet0/1
+o ipv4 mostra 1.0.0.1 como configurado no exercicio 12
+
+Static
+o network address mostra 200.1.1.0/24 como configurado no exercicio 13
+-----------
+
+roteador 1
+FastEthernet0/0
+o ipv4 mostra 200.1.1.1 como configurado no exercicio 14
+
+FastEthernet0/1
+o ipv4 mostra 1.0.0.2 como configurado no exercicio 14
+
+Static
+o network address mostra 200.1.0.0/24 como configurado no exercicio 13

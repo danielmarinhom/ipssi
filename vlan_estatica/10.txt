@@ -1,0 +1,11 @@
+a)O comando show vlan brief mostra o resumo das vlans com o id vlan, o nome, o status e as portas
+
+b)Se elas não foram alteradas, elas devem continuar na vlan 1.
+
+c)O cuidado a ser tomado é da nova porta estar na mesma vlan da porta anterior, caso o contrario, o host não consegue se conectar
+
+d)O uso de vlan tem vantagens como: a fácil mobilidade dos hosts da rede, uma possível organização por setores e a segurança por isolar os hosts e não deixar que se comuniquem sem o roteamneto
+
+e)Teria de ter um switch para fazer a interconexão por meio de interfaces entre as vlans
+
+f)Não pois o roteamento entre vlans exige que cada vlan esteja em uma sub rede diferente

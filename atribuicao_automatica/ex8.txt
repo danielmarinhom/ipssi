@@ -1,0 +1,8 @@
+8)a)o endereço ip da maquina 9 foi de: 200.1.2.5 -> 200.1.2.105
+o endereço ip da maquina  0 foi de: 20.1.2.11 -> 200.1.2.106. Isso ocorreu pois a sequência de comandos ocasionou a troca do endereço ip dhcp
+
+b)o ipconfig /release libera o ip da maquina atual que recebeu do server dhcp, deixando o pc sem ip valido
+
+c)o ipconfig /renew solicita um ip novo para o server dhcp
+
+e)sim, se forem adicionados 4 pc's, eles obtem endereco ip quando configurados para dhcp

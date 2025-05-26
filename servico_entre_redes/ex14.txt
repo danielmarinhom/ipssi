@@ -1,0 +1,41 @@
+tabela dos pcs após remover a conexao
+
+pc0
+-------------
+110.0.0.110
+ttl:253
+tracert: router 0 pro 5, pro 4, pro 3, pro 2, pro 1
+
+140.0.0.140
+ttl:253
+tracert: router 0 pro 5, pro 4
+
+pc3
+-------------
+110.0.0.110
+ttl:254
+tracert: router 2 pro 1
+
+140.0.0.140
+ttl:253
+tracert: router 2 pro 3, pro 4
+
+pc6
+------------
+110.0.0.110
+ttl: 253
+tracert: router 3 pro 2, pro 1
+
+140.0.0.110
+ttl:253
+tracert: router 3 pro 4
+
+pc9
+------------
+110.0.0.110
+ttl:253
+tracert: router 5 pro 4, pro 3, pro 2, pro 1
+
+140.0.0.140
+ttl:254
+tracert: router 5 pro 4

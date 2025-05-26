@@ -1,0 +1,10 @@
+a) O roteador conecta redes diferentes e manda os pacotes pelo melhor caminho.
+b) É o IP do roteador que o PC usa pra sair da rede local e acessar outras.
+c) Sem gateway, o PC só fala com quem tá na mesma rede.
+d) Ele não se ajusta sozinho. Se a rede muda, tem que arrumar na mão.
+e) São os aparelhos que recebem um broadcast dentro da mesma rede.
+f) Porque o roteador bloqueia broadcasts entre redes diferentes.
+g) TTL é o número de saltos que o pacote pode dar antes de ser jogado fora.
+h) O tracert mostra por onde o pacote passa até chegar no destino.
+i)Neste exercício, 2 redes são ligadas
+j)Na primeira, do server 0; 200.1.0.255. Na segunda, do server 1; 200.1.1.255

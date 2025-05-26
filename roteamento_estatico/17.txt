@@ -1,0 +1,30 @@
+pc 0
+
+ipconfig
+IPv4 Address....................: 200.1.0.100
+
+ping broadcast (pra 200.1.0.255 e pra 200.1.1.255 pois 255.255.255.255 não funciona)
+Reply from 200.1.0.1: bytes=32 time<1ms TTL=255
+Reply from 200.1.0.104: bytes=32 time<1ms TTL=128
+Reply from 200.1.0.101: bytes=32 time<1ms TTL=128
+Reply from 200.1.0.102: bytes=32 time<1ms TTL=128
+Reply from 200.1.0.10: bytes=32 time<1ms TTL=128
+Reply from 200.1.0.103: bytes=32 time=15ms TTL=128
+Reply from 1.0.0.2: bytes=32 time<1ms TTL=254
+
+
+--------------------
+
+pc 5
+
+ip config
+IPv4 Address....................: 200.1.1.105
+
+ping broadcast (pra 200.1.0.255 e pra 200.1.1.255 pois 255.255.255.255 não funciona)
+Reply from 200.1.1.1: bytes=32 time<1ms TTL=255
+Reply from 200.1.1.101: bytes=32 time<1ms TTL=128
+Reply from 200.1.1.102: bytes=32 time<1ms TTL=128
+Reply from 200.1.1.103: bytes=32 time<1ms TTL=128
+Reply from 200.1.1.10: bytes=32 time=10ms TTL=128
+Reply from 200.1.1.104: bytes=32 time=10ms TTL=128
+Reply from 1.0.0.1: bytes=32 time<1ms TTL=254

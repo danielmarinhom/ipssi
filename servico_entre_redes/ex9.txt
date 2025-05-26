@@ -1,0 +1,23 @@
+9)pc 0 ipv4: 200.168.0.100
+todas as maquinas do cluster respondem:
+Reply from 200.168.0.101: bytes=32 time<1ms TTL=128
+Reply from 200.168.0.102: bytes=32 time<1ms TTL=128
+Reply from 200.168.0.254: bytes=32 time<1ms TTL=128
+
+pc 3 ipv4: 200.168.2.100
+todas as maquinas do cluster respondem:
+Reply from 200.168.2.101: bytes=32 time<1ms TTL=128
+Reply from 200.168.2.102: bytes=32 time<1ms TTL=128
+Reply from 200.168.2.254: bytes=32 time<1ms TTL=128
+
+pc 6 ipv4: 200.168.3.100
+todas as maquinas do cluster respondem:
+Reply from 200.168.3.101: bytes=32 time<1ms TTL=128
+Reply from 200.168.3.102: bytes=32 time<1ms TTL=128
+Reply from 200.168.3.254: bytes=32 time<1ms TTL=128
+
+pc 9 ipv4: 200.168.5.100
+todas as maquinas do cluster respondem:
+Reply from 200.168.5.101: bytes=32 time<1ms TTL=128
+Reply from 200.168.5.102: bytes=32 time<1ms TTL=128
+Reply from 200.168.5.254: bytes=32 time<1ms TTL=128
