@@ -1,0 +1,22 @@
+Hub x Switch
+ 
+
+a) Quantos hosts recebem a solicitação de eco (ping)?
+5 hosts
+b) Todos recebem?
+Sim
+c) Algum descarta?
+Sim, apenas o host de destino (PC3) aceita e responde
+d) Quantos respondem?
+Somente PC3
+e) A resposta vai para quantos hosts?
+5 hosts
+f) Todos recebem a resposta?
+Sim
+g) Algum host descarta a resposta?
+Sim., somente o PC0
+ 
+h) Qual a diferença entre Hub e Switch?
+O hub envia todos os pacotes para todas as suas portas, independentemente do destino. Já o switch identifica a porta correta de destino e encaminha os pacotes apenas para o host correspondente.
+i) Para que serve o STP (Spanning Tree Protocol)?
+O STP previne loops em redes com switches ao identificar caminhos redundantes e desativá-los temporariamente.

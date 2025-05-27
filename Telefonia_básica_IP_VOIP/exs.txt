@@ -1,0 +1,7 @@
+Telefonia básica IP - VoIP no Cisco Packet Tracer
+ 
+a) O que significa e qual a função do ATA?
+ATA significa Adaptador de Terminal Analógico. Sua função é permitir que telefones analógicos convencionais se conectem a redes VoIP, convertendo os sinais analógicos em digitais para transmissão pela internet.
+
+b) Quando é possível reduzir o custo de uma chamada usando VoIP?
+É possível reduzir os custos quando a chamada utiliza a internet (VoIP) na maior parte do trajeto e só entra na rede telefônica tradicional próximo ao destino, evitando tarifas de longa distância.

@@ -1,0 +1,20 @@
+Acesso de LAN e WLAN à WAN por ADSL
+ 
+PC12 200.168.5.103
+
+Responda: De onde vieram estas configurações?
+Vieram do cluster 5, especificamente do servidor 5.
+
+Anote o IP do host que responde: 110.0.0.110
+
+a) Quem fornece as configurações de IP para que o usuário final possa navegar na Internet?
+O serviço DHCP é quem entrega automaticamente os dados de rede, como o endereço IP, máscara de rede, gateway padrão e DNS ao usuário.
+
+b) Na rede sem fio do usuário final (WLAN), quem forneceu as configurações aos Laptops?
+As definições de rede foram atribuídas pelo roteador conectado à rede wireless, que tem o DHCP ativado.
+
+c) Como é fornecida a configuração de DNS Server aos Laptops?
+Durante a concessão do endereço IP, o servidor DHCP também envia o IP do servidor DNS para os laptops, junto com os demais parâmetros da rede.
+
+d) Ao enviar ping para um domínio, quem responde é um IP. Por quê?
+Porque toda comunicação na Internet é baseada em endereços IP. O nome do site precisa ser traduzido para IP para que os dados possam chegar ao destino. Essa tradução é feita pelo servidor DNS, que retorna o endereço IP correspondente.

@@ -1,0 +1,44 @@
+Máscara de Subredes – Subnet Mask
+ 
+Quais máquinas respondem ao ping de broadcast? Por quê?
+Apenas os PCs da mesma rede respondem (PC1, PC2, PC3, PC4), O ping 255.255.255.255 é um broadcast local (limitado à rede de origem).
+
+Quais máquinas respondem ao ping de broadcast de PC5? Por quê?
+Apenas PC6, PC7, PC8, PC9 (da mesma rede 200.1.3.0/24)
+Responda:
+Qual a classe destas redes?
+Classe C (endereços de 200.x.x.x com máscara padrão /24)
+
+Quantas redes temos configuradas?
+Duas redes (200.1.2.0/24 e 200.1.3.0/24)
+
+Qual o endereço de cada rede?
+Rede 1: 200.1.2.0/24
+ Rede 2: 200.1.3.0/24
+
+Qual o endereço de broadcast de cada rede?
+Rede 1: 200.1.2.255
+Rede 2: 200.1.3.255
+
+Quais máquinas respondem ao ping de broadcast com máscara /26? Por quê?
+PC1 (10), PC2 (20), PC3 (30), apenas máquinas na mesma sub-rede respondem.
+
+Quais máquinas respondem ao ping de broadcast do PC7? Por quê?
+PC8 (80), PC9 (90), somente os PCs que estão na mesma sub-rede que o PC7 responderá ao ping de broadcast, PC7 está com o IP 200.1.2.70/26, pertence à sub-rede 200.1.2.64/26, cujo intervalo de hosts válidos vai de 200.1.2.65 a 200.1.2.126.
+
+Responda:
+a) Quantas redes temos configuradas?
+A máscara /26 divide um /24 em 4 sub-redes
+Portanto, temos 4 redes configuradas
+
+b) Qual o endereço de cada rede?
+200.1.2.0/26 (hosts de 1 a 62)
+200.1.2.64/26 (hosts de 65 a 126)
+200.1.2.128/26 (não usada aqui)
+200.1.2.192/26 (não usada aqui)
+
+c) Qual o endereço de broadcast de cada rede?
+200.1.2.63
+200.1.2.127
+200.1.2.191
+200.1.2.255
